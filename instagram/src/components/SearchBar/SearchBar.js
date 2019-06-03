@@ -12,13 +12,13 @@ const SearchBar = props =>{
 
                 <div className="searchbar-form">
                     <div className="searchbar-hourglass"></div>
-                    <input className="top-searchbar"></input>
+                    <input className="top-searchbar" placeholder="Search"></input>
                     <div className="searchbar-exit"></div>
                 </div>
 
-                <img />
-                <img />
-                <img />
+                <div className="icon-explore"></div>
+                <div className="icon-notification"></div>
+                <div className="icon-profile"></div>
             </div>
         </div>
     )
