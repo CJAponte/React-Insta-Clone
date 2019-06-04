@@ -1,27 +1,26 @@
-import React from 'react';
-import './SearchBar.css'
+import React from "react";
+import "./SearchBar.css";
 
+const SearchBar = props => {
+  return (
+    <div className="search-bar">
+      <div className="search-bar-items">
+        <div className="logo-icon" />
+        <div className="logo-break" />
+        <img className="logo-word" />
 
-const SearchBar = props =>{
-    return(
-        <div className="search-bar">
-            <div className="search-bar-items">
-                <div className="logo-icon"></div>
-                <div className="logo-break"></div>
-                <img className="logo-word"/>
-
-                <div className="searchbar-form">
-                    <div className="searchbar-hourglass"></div>
-                    <input className="top-searchbar" placeholder="Search"></input>
-                    <div className="searchbar-exit"></div>
-                </div>
-
-                <div className="icon-explore"></div>
-                <div className="icon-notification"></div>
-                <div className="icon-profile"></div>
-            </div>
+        <div className="searchbar-form">
+          <div className="searchbar-hourglass" />
+          <input className="top-searchbar" placeholder="Search" />
+          <div className="searchbar-exit" />
         </div>
-    )
-}
 
-export default SearchBar
+        <div className="icon-explore" />
+        <div className="icon-notification" />
+        <div className="icon-profile" />
+      </div>
+    </div>
+  );
+};
+
+export default SearchBar;
