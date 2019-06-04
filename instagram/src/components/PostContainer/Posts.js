@@ -10,7 +10,7 @@ const Posts = props => {
     <div>
       {props.posts.map(post => {
         return (
-          <div>
+          <div key={post.id}>
             <div>
               <Post post={post} key={props.id} />
             </div>
