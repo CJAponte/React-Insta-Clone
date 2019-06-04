@@ -17,6 +17,9 @@ const Posts = props => {
             <div className="comment-section">
               <CommentSectionContainer comments={post.comments} />
             </div>
+            <div className="timestamp-container">
+              <p className="timestamp">{post.timestamp}</p>
+            </div>
             <div className="comment-input-section">
               <CommentInput />
             </div>

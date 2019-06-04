@@ -37,7 +37,6 @@
   top: 46px;
   max-width: 612px;
   margin: 0px auto;
-  border-bottom: 1px solid silver;
   border-left: 1px solid silver;
   border-right: 1px solid silver;
 }
@@ -136,7 +135,22 @@
   border-right: 1px solid silver;
 }
 
-/* .like-counter p {
-  color: lightgrey;
-  font-weight: 600;
-} */
+.timestamp-container {
+  position: relative;
+  top: 45px;
+  max-width: 612px;
+  margin: 0px auto;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 0px;
+}
+
+.timestamp-container .timestamp {
+  padding-left: 15px;
+  font-size: 12px;
+  color: grey;
+}
