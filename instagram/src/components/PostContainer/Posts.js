@@ -21,7 +21,7 @@ const Posts = props => {
               <p className="timestamp">{post.timestamp}</p>
             </div>
             <div className="comment-input-section">
-              <CommentInput />
+              <CommentInput comment={post.comments} />
             </div>
           </div>
         );

@@ -11,15 +11,19 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      post: dummyData
+      post: [],
+      input: ""
     };
+  }
+
+  componentDidMount() {
+    this.setState({ post: dummyData });
   }
 
   render() {
     return (
       <div className="App">
         <SearchBar />
-        {/* <CommentSectionContainer comments={this.state.post[0].comments} /> */}
         <PostContainer
           post={this.state.post}
           comments={this.state.post.comments}

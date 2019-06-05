@@ -1,15 +1,4 @@
-/* .Box1 {
-  margin-top: 100px;
-  margin-left: 200px;
-  border: 1px solid black;
-  background: lightgrey;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
+.comment-input input:focus {
+  outline-color: transparent;
+  outline-style: none;
 }
-
-.Box1 p {
-  position: relative;
-  top: 400px;
-} */
