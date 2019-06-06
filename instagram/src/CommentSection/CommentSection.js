@@ -1,6 +1,5 @@
 import React from "react";
 import Comment from "./Comment";
-import "./CommentSection.css";
 import styled from "styled-components";
 
 class CommentSection extends React.Component {
